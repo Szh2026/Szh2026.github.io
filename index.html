@@ -676,6 +676,41 @@
       background: var(--green);
     }
 
+    .project-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .project-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 13px;
+      border: 1px solid #cbdbe7;
+      border-radius: 6px;
+      color: #32667f;
+      background: #f5fafc;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 1.3;
+      transition: color 0.22s ease, border-color 0.22s ease, background 0.22s ease, transform 0.22s ease;
+    }
+
+    .project-link:hover {
+      color: #24546b;
+      border-color: #a9c9d9;
+      background: #eaf5f8;
+      transform: translateY(-2px);
+    }
+
+    .project-link svg {
+      flex: 0 0 auto;
+      width: 15px;
+      height: 15px;
+    }
+
     .campus-card {
       margin-top: 30px;
       padding-top: 26px;
@@ -1280,6 +1315,16 @@
           <ul class="bullet-list">
             <li>实现角色生成、移动控制、碰撞检测、关卡机制、对象销毁等核心功能。</li>
           </ul>
+          <div class="project-actions">
+            <a class="project-link" href="https://szh2026.github.io/tank-battle" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <path d="M14 3h7v7"/>
+                <path d="M10 14 21 3"/>
+                <path d="M21 14v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h6"/>
+              </svg>
+              <span>在线查看项目</span>
+            </a>
+          </div>
         </div>
       </article>
 
@@ -1304,6 +1349,16 @@
             <li>实现用户注册、登录、地址、创建订单、模拟支付、订单详情等模块。</li>
             <li>系统分为管理后台和用户网页端。</li>
           </ul>
+          <div class="project-actions">
+            <a class="project-link" href="https://szh2026.github.io/pet-mall" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <path d="M14 3h7v7"/>
+                <path d="M10 14 21 3"/>
+                <path d="M21 14v6a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h6"/>
+              </svg>
+              <span>在线查看项目</span>
+            </a>
+          </div>
         </div>
       </article>
 
